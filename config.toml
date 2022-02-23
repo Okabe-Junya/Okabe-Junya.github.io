@@ -16,7 +16,7 @@ disqusShortname = 'Junya'
 
 [params]
   author = "Okabe Junya"
-  info = "Student"
+  info = "Student of University of Tsukuba"
   description = "Okabe Junya's personal website"
 
   since = 2022
@@ -53,4 +53,4 @@ disqusShortname = 'Junya'
 [[menu.main]]
   name = "About"
   weight = 2
-  url = "content/posts/about/about"
+  url = "content/posts/about"
