@@ -1,0 +1,56 @@
+baseURL = 'https://Okabe-Junya.github.io'
+title = 'Okabe Junya'
+author = 'Okabe Junya'
+theme = 'hugo-coder'
+languageCode = 'ja-jp'
+defaultcontentlanguage = 'en'
+canonifyurls = true
+publishDir = "docs"
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+paginate = 20
+
+disqusShortname = 'Junya'
+
+[params]
+  author = "Okabe Junya"
+  info = "Student"
+  description = "Okabe Junya's personal website"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  commit = "https://github.com/Okabe-Junya/Okabe-Junya.github.io/main/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Okabe-Junya/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/Junya_Tsukuba/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "content/posts/blog/blog1"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "content/posts/about/about"
