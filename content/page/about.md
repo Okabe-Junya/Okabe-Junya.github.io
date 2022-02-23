@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2022-02-23T23:38:18+09:00
-draft: true
+draft: false
 isCJKLanguage: true
 ---
 
@@ -16,6 +16,7 @@ isCJKLanguage: true
 
 - [第8回科学の甲子園全国大会](https://koushien.jst.go.jp/koushien/tournament/2018/index.html)出場（茨城県情報担当）
 - [AtCoder緑](https://atcoder.jp/users/JunyaOkabe)
+
 ## Products
 
 - [Special-Seminar](https://github.com/Okabe-Junya/Special-Seminar)
