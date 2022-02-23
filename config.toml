@@ -11,12 +11,13 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 paginate = 20
+HasCJKLanguage = true
 
 disqusShortname = 'Junya'
 
 [params]
   author = "Okabe Junya"
-  info = "Student"
+  info = "Student of University of Tsukuba"
   description = "Okabe Junya's personal website"
 
   since = 2022
@@ -48,9 +49,13 @@ disqusShortname = 'Junya'
 # Menu links
 [[menu.main]]
   name = "Blog"
-  weight = 1
-  url  = "content/posts/blog/blog1"
+  weight = 2
+  url  = "posts/"
 [[menu.main]]
   name = "About"
-  weight = 2
-  url = "content/posts/about/about"
+  weight = 1
+  url = "page/about"
+[[menu.main]]
+  name = "Contact"
+  weight = 3
+  url = "page/contact"
