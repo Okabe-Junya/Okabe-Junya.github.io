@@ -21,3 +21,11 @@ isCJKLanguage: true
 
 - [Special-Seminar](https://github.com/Okabe-Junya/Special-Seminar)
 - [AtCoder_library](https://okabe-junya.github.io/AtCoder_library/)
+
+## Qualifications
+
+更新中
+
+## Other
+
+更新中

@@ -6,4 +6,5 @@ draft: false
 
 - Mail: `okabe.junya.qj@alumni.tsukuba.ac.jp`
 - GitHub: [Okabe-Junya](https://github.com/Okabe-Junya)
+- Twitter: [@Junya_Tsukuba](https://twitter.com/Junya_Tsukuba)
 - LinkedIn: [Okabe-Junya](https://www.linkedin.com/in/junya-okabe/)
