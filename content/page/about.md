@@ -14,6 +14,7 @@ isCJKLanguage: true
 
 ## Achievements
 
+- [第8回科学の甲子園全国大会茨城県大会](http://www.tsukuba-banpaku.jp/spread/detail/id=127)優勝（並木中等Aチーム）
 - [第8回科学の甲子園全国大会](https://koushien.jst.go.jp/koushien/tournament/2018/index.html)出場（茨城県情報担当）
 - [AtCoder緑](https://atcoder.jp/users/JunyaOkabe)
 
@@ -21,3 +22,11 @@ isCJKLanguage: true
 
 - [Special-Seminar](https://github.com/Okabe-Junya/Special-Seminar)
 - [AtCoder_library](https://okabe-junya.github.io/AtCoder_library/)
+
+## Qualifications
+
+更新中
+
+## Other
+
+更新中

@@ -12,6 +12,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 paginate = 20
 HasCJKLanguage = true
+googleAnalytics = "G-MDPP3BRJ9L"
 
 disqusShortname = 'Junya'
 
