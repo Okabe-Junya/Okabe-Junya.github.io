@@ -1,9 +1,13 @@
----
-title: "About Me"
-date: 2022-02-23T23:38:18+09:00
-draft: false
-isCJKLanguage: true
----
++++ 
+draft = false
+date = 2022-03-07T04:25:15+09:00
+title = "About Me"
+description = "my profile"
+authors = []
+externalLink = ""
+series = []
+isCJKLanguage = true
++++
 
 ## Profile
 
