@@ -1,8 +1,15 @@
----
-title: "Contact"
-date: 2022-02-24T00:11:38+09:00
-draft: false
----
++++ 
+draft = false
+date = 2022-03-07T04:25:15+09:00
+title = "Contact"
+description = "If you would like to contact me, please use the following information"
+slug = "contact"
+authors = []
+externalLink = ""
+series = []
+isCJKLanguage = true
++++
+
 
 - Mail: `okabe.junya.qj[at]alumni.tsukuba.ac.jp`
 - GitHub: [Okabe-Junya](https://github.com/Okabe-Junya)
