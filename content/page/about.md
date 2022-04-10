@@ -25,12 +25,15 @@ isCJKLanguage = true
 ## Products
 
 - [Special-Seminar](https://github.com/Okabe-Junya/Special-Seminar)
-- [AtCoder_library](https://okabe-junya.github.io/AtCoder_library/)
+- [AtCoder_Library](https://okabe-junya.github.io/AtCoder_Library/)
 
 ## Qualifications
 
-更新中
+- 基本情報技術者試験（速報値）
 
-## Other
+## I'm interested in
 
-更新中
+- Competitive Programming
+- Machine Learning
+- Mathematical Optimization
+- Natural Language Processing
