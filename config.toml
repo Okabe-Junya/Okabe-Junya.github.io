@@ -1,0 +1,24 @@
+baseURL = 'https://okabe-junya.github.io'
+languageCode = 'ja'
+theme = 'hugo-coder'
+title = 'okabe-junya.github.io'
+
+[params]
+author = 'Junya Okabe'
+colorScheme = 'auto'
+commit = 'https://github.com/Okabe-Junya/Okabe-Junya.github.io/tree'
+description = "Junya Okabe's personal website"
+info = ['Student']
+keywords = "blog, personal, website, personal website, personal blog, personal blog website, Computer Science"
+since = '2022'
+
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
