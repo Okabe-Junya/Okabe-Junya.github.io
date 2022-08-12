@@ -3,6 +3,8 @@ languageCode = 'ja'
 defaultContentLanguage = 'ja'
 theme = 'hugo-coder'
 title = 'okabe-junya.github.io'
+publishDir = 'docs'
+canonifyurls = true
 
 [params]
 author = 'Junya Okabe'
