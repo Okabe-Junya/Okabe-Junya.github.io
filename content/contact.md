@@ -7,7 +7,7 @@ slug: "contact"
 tags: []
 categories: []
 isCJKLanguage: true
-draft: true
+draft: false
 ---
 
 - Mail: `okabe.junya.qj[at]alumni.tsukuba.ac.jp`

@@ -1,8 +1,8 @@
-baseURL = 'https://okabe-junya.github.io'
+baseURL = 'https://Okabe-Junya.github.io'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
 theme = 'hugo-coder'
-title = 'okabe-junya.github.io'
+title = 'Okabe-Junya.github.io'
 publishDir = 'docs'
 canonifyurls = true
 
