@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>okabe-junya.github.io</title>
-    <link>https://okabe-junya.github.io/</link>
-    <description>Recent content on okabe-junya.github.io</description>
+    <title>Okabe-Junya.github.io</title>
+    <link>https://Okabe-Junya.github.io/</link>
+    <description>Recent content on Okabe-Junya.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://okabe-junya.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language><atom:link href="https://Okabe-Junya.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://Okabe-Junya.github.io/contact/</link>
+      <pubDate>Fri, 12 Aug 2022 02:33:14 +0900</pubDate>
+      
+      <guid>https://Okabe-Junya.github.io/contact/</guid>
+      <description>Mail: okabe.junya.qj[at]alumni.tsukuba.ac.jp GitHub: Okabe-Junya Twitter: @Junya_Tsukuba FaceBook: Junya Okabe LinkedIn: Okabe-Junya</description>
+    </item>
+    
     <item>
       <title>About Me</title>
-      <link>https://okabe-junya.github.io/about/</link>
+      <link>https://Okabe-Junya.github.io/about/</link>
       <pubDate>Fri, 12 Aug 2022 02:27:57 +0900</pubDate>
       
-      <guid>https://okabe-junya.github.io/about/</guid>
+      <guid>https://Okabe-Junya.github.io/about/</guid>
       <description>Profile 2014/04/01: 茨城県立並木中等教育学校入学 2020/03/31: 茨城県立並木中等教育学校卒業 2021/04/01: 筑波大学情報学群情報科学類入学 2022/02/01: 筑波大学情報学群情報科学類在学中 Achievements 第8回科学</description>
     </item>
     
