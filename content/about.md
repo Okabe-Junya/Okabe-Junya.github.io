@@ -6,7 +6,7 @@ slug: "about"
 tags: []
 categories: []
 isCJKLanguage: true
-draft: true
+draft: false
 ---
 
 ## Profile

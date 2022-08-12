@@ -66,3 +66,6 @@ url = "posts/"
 name = "Contact me"
 weight = 3
 url = "contact/"
+
+publishDir = 'docs'
+canonifyurls = true
