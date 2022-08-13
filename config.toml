@@ -1,8 +1,10 @@
 baseURL = 'https://Okabe-Junya.github.io'
+publishDir = 'docs'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
 theme = 'hugo-coder'
 title = 'Okabe-Junya.github.io'
+canonifyurls = true
 
 [params]
 author = 'Junya Okabe'
@@ -67,5 +69,3 @@ name = "Contact me"
 weight = 3
 url = "contact/"
 
-publishDir = 'docs'
-canonifyurls = true
