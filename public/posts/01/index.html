@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>
+  初投稿（テスト） · Okabe-Junya.github.io
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Junya Okabe">
+<meta name="description" content="概要 サイトを全面リニューアルしました．
+背景 過去の反省 元々ホームページは作成していたのですが，
+Gitのブランチ運用がひどい Commitの粒度がバラバラ 完全に更新をしていなかった などの問題があったので，再度イチから作り上げたほうがいいのでは・・・と思い作り直しました．上2つは反省して Git-flow を用いることにしました．これでなんとかなる（本当？）と思います．更新に関しては，気合いでなんとかするつもりです．．
+技術的な話 footerに記載されている通り，作成にあたっては Hugo を，テーマとして Coder 使っています（何も考えずにおしゃれなサイトがデプロイまでできて便利ですね）．フレームワークとして Hugo を選んだのには特に深い理由もないのですが，静的なサイト にするという前提のもとで
+おしゃなサイトが簡単に作れる 白と黒のいいかんじにおしゃれなサイトが選べた 投稿一覧とかタグづけとかを勝手にやってくれる コマンド叩けば一発でデプロイできるようにしたかった（&lt;-ほとんどのフレームワークでできる？） 今は (develop-&gt;) release -&gt; master のマージをトリガーにしてデプロイする運用に落ち着いています．（Git-flowとの兼ね合い） テーマがサクッと変更できる congig.toml と git submodule をちょろっと弄るだけ（多分） 無料で使える（MITライセンスで公開されていた） あたりが挙げられるのではないでしょうか（Hugoに惹かれたというよりかはCoderのテーマに惹かれた結果です）．
+またURIを見ての通り，GitHubでホスティングしています．Hugoとgithub-pages は相性がいいですね．諸々あってこのサイト用のRepoは非公開にしていますが，気が向いたら公開します．
+これから 三日坊主にならないように頑張りたいです．実はインターンが決まっていたり，技術系イベントに参加する予定があったりするので，参加記事とか書きたいです．">
+<meta name="keywords" content="blog, personal, website, personal website, personal blog, personal blog website, Computer Science">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="初投稿（テスト）"/>
+<meta name="twitter:description" content="概要 サイトを全面リニューアルしました．
+背景 過去の反省 元々ホームページは作成していたのですが，
+Gitのブランチ運用がひどい Commitの粒度がバラバラ 完全に更新をしていなかった などの問題があったので，再度イチから作り上げたほうがいいのでは・・・と思い作り直しました．上2つは反省して Git-flow を用いることにしました．これでなんとかなる（本当？）と思います．更新に関しては，気合いでなんとかするつもりです．．
+技術的な話 footerに記載されている通り，作成にあたっては Hugo を，テーマとして Coder 使っています（何も考えずにおしゃれなサイトがデプロイまでできて便利ですね）．フレームワークとして Hugo を選んだのには特に深い理由もないのですが，静的なサイト にするという前提のもとで
+おしゃなサイトが簡単に作れる 白と黒のいいかんじにおしゃれなサイトが選べた 投稿一覧とかタグづけとかを勝手にやってくれる コマンド叩けば一発でデプロイできるようにしたかった（&lt;-ほとんどのフレームワークでできる？） 今は (develop-&gt;) release -&gt; master のマージをトリガーにしてデプロイする運用に落ち着いています．（Git-flowとの兼ね合い） テーマがサクッと変更できる congig.toml と git submodule をちょろっと弄るだけ（多分） 無料で使える（MITライセンスで公開されていた） あたりが挙げられるのではないでしょうか（Hugoに惹かれたというよりかはCoderのテーマに惹かれた結果です）．
+またURIを見ての通り，GitHubでホスティングしています．Hugoとgithub-pages は相性がいいですね．諸々あってこのサイト用のRepoは非公開にしていますが，気が向いたら公開します．
+これから 三日坊主にならないように頑張りたいです．実はインターンが決まっていたり，技術系イベントに参加する予定があったりするので，参加記事とか書きたいです．"/>
+
+<meta property="og:title" content="初投稿（テスト）" />
+<meta property="og:description" content="概要 サイトを全面リニューアルしました．
+背景 過去の反省 元々ホームページは作成していたのですが，
+Gitのブランチ運用がひどい Commitの粒度がバラバラ 完全に更新をしていなかった などの問題があったので，再度イチから作り上げたほうがいいのでは・・・と思い作り直しました．上2つは反省して Git-flow を用いることにしました．これでなんとかなる（本当？）と思います．更新に関しては，気合いでなんとかするつもりです．．
+技術的な話 footerに記載されている通り，作成にあたっては Hugo を，テーマとして Coder 使っています（何も考えずにおしゃれなサイトがデプロイまでできて便利ですね）．フレームワークとして Hugo を選んだのには特に深い理由もないのですが，静的なサイト にするという前提のもとで
+おしゃなサイトが簡単に作れる 白と黒のいいかんじにおしゃれなサイトが選べた 投稿一覧とかタグづけとかを勝手にやってくれる コマンド叩けば一発でデプロイできるようにしたかった（&lt;-ほとんどのフレームワークでできる？） 今は (develop-&gt;) release -&gt; master のマージをトリガーにしてデプロイする運用に落ち着いています．（Git-flowとの兼ね合い） テーマがサクッと変更できる congig.toml と git submodule をちょろっと弄るだけ（多分） 無料で使える（MITライセンスで公開されていた） あたりが挙げられるのではないでしょうか（Hugoに惹かれたというよりかはCoderのテーマに惹かれた結果です）．
+またURIを見ての通り，GitHubでホスティングしています．Hugoとgithub-pages は相性がいいですね．諸々あってこのサイト用のRepoは非公開にしていますが，気が向いたら公開します．
+これから 三日坊主にならないように頑張りたいです．実はインターンが決まっていたり，技術系イベントに参加する予定があったりするので，参加記事とか書きたいです．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Okabe-Junya.github.io/posts/01/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-13T03:02:50+09:00" />
+<meta property="article:modified_time" content="2022-08-13T03:02:50+09:00" />
+
+
+
+
+
+<link rel="canonical" href="https://Okabe-Junya.github.io/posts/01/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.c4d7e93a158eda5a65b3df343745d2092a0a1e2170feeec909b8a89443903c6a.css" integrity="sha256-xNfpOhWO2lpls980N0XSCSoKHiFw/u7JCbiolEOQPGo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.39e41a7f16bdf8cb16e43cae7d714fa1016f1d2d2898a5b3f27f42c9979204e2.css" integrity="sha256-OeQafxa9&#43;MsW5DyufXFPoQFvHS0omKWz8n9CyZeSBOI=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.101.0" />
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Okabe-Junya.github.io
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://Okabe-Junya.github.io/posts/01/">
+              初投稿（テスト）
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-08-13T03:02:50&#43;09:00">
+                8月 13, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              1分で読めます
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/test/">test</a></div>
+
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <h2 id="概要">
+  概要
+  <a class="heading-link" href="#%e6%a6%82%e8%a6%81">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>サイトを全面リニューアルしました．</p>
+<h2 id="背景">
+  背景
+  <a class="heading-link" href="#%e8%83%8c%e6%99%af">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<h3 id="過去の反省">
+  過去の反省
+  <a class="heading-link" href="#%e9%81%8e%e5%8e%bb%e3%81%ae%e5%8f%8d%e7%9c%81">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>元々ホームページは作成していたのですが，</p>
+<ul>
+<li>Gitのブランチ運用がひどい</li>
+<li>Commitの粒度がバラバラ</li>
+<li>完全に更新をしていなかった</li>
+</ul>
+<p>などの問題があったので，再度イチから作り上げたほうがいいのでは・・・と思い作り直しました．上2つは反省して <code>Git-flow</code> を用いることにしました．これでなんとかなる（本当？）と思います．更新に関しては，気合いでなんとかするつもりです．．</p>
+<h3 id="技術的な話">
+  技術的な話
+  <a class="heading-link" href="#%e6%8a%80%e8%a1%93%e7%9a%84%e3%81%aa%e8%a9%b1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>footerに記載されている通り，作成にあたっては <a href="https://gohugo.io">Hugo</a> を，テーマとして <a href="https://github.com/luizdepra/hugo-coder">Coder</a> 使っています（何も考えずにおしゃれなサイトがデプロイまでできて便利ですね）．フレームワークとして Hugo を選んだのには特に深い理由もないのですが，<strong>静的なサイト</strong> にするという前提のもとで</p>
+<ul>
+<li>おしゃなサイトが簡単に作れる
+<ul>
+<li>白と黒のいいかんじにおしゃれなサイトが選べた</li>
+<li>投稿一覧とかタグづけとかを勝手にやってくれる</li>
+</ul>
+</li>
+<li>コマンド叩けば一発でデプロイできるようにしたかった（&lt;-ほとんどのフレームワークでできる？）
+<ul>
+<li>今は (develop-&gt;) release -&gt; master のマージをトリガーにしてデプロイする運用に落ち着いています．（Git-flowとの兼ね合い）</li>
+</ul>
+</li>
+<li>テーマがサクッと変更できる
+<ul>
+<li><code>congig.toml</code> と <code>git submodule</code> をちょろっと弄るだけ（多分）</li>
+</ul>
+</li>
+<li>無料で使える（MITライセンスで公開されていた）</li>
+</ul>
+<p>あたりが挙げられるのではないでしょうか（Hugoに惹かれたというよりかはCoderのテーマに惹かれた結果です）．</p>
+<p>またURIを見ての通り，GitHubでホスティングしています．Hugoとgithub-pages は相性がいいですね．諸々あってこのサイト用のRepoは非公開にしていますが，気が向いたら公開します．</p>
+<h2 id="これから">
+  これから
+  <a class="heading-link" href="#%e3%81%93%e3%82%8c%e3%81%8b%e3%82%89">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>三日坊主にならないように頑張りたいです．実はインターンが決まっていたり，技術系イベントに参加する予定があったりするので，参加記事とか書きたいです．</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2022
+     Junya Okabe 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+  
+  <script src="/js/coder.min.236049395dc3682fb2719640872958e12f1f24067bb09c327b233e6290c7edac.js" integrity="sha256-I2BJOV3DaC&#43;ycZZAhylY4S8fJAZ7sJwyeyM&#43;YpDH7aw="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
