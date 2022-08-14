@@ -65,7 +65,7 @@ weight = 2
 url = "posts/"
 
 [[languages.ja.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 3
 url = "contact/"
 
