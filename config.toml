@@ -5,6 +5,7 @@ defaultContentLanguage = 'ja'
 theme = 'hugo-coder'
 title = 'Okabe-Junya.github.io'
 canonifyurls = true
+googleAnalytics = 'G-98DYTL17TR'
 
 [params]
 author = 'Junya Okabe'
