@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cookpad_summer_intern on Okabe-Junya.github.io</title>
+    <link>https://Okabe-Junya.github.io/tags/cookpad_summer_intern/</link>
+    <description>Recent content in cookpad_summer_intern on Okabe-Junya.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 19 Sep 2022 03:02:51 +0900</lastBuildDate><atom:link href="https://Okabe-Junya.github.io/tags/cookpad_summer_intern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cookpadのエンジニアインターンに参加しました</title>
+      <link>https://Okabe-Junya.github.io/posts/02/</link>
+      <pubDate>Mon, 19 Sep 2022 03:02:51 +0900</pubDate>
+      
+      <guid>https://Okabe-Junya.github.io/posts/02/</guid>
+      <description>概要 こんにちは．めちゃくちゃ久しぶりの更新となってしまいました・・・9月14日(水)〜9月16日(金)の3日間，cookpadのエンジニアインターンに参加しました！！
+オフィスでの一枚 インターンシップの詳細は こちら からご確認ください．
+やったこと ながれ 3日間でサービス開発の一連の流れを体験する ということで
+サービス開発の講義 ユーザーインタビュー 価値仮説検証 プロトタイプの実装 成果発表 を行い，その中で随時メンター，クリエイターの方々からフィードバックをいただきました．
+講義 最初にサービス開発，ユーザーインタビューに関する講義を実施しました．講義資料は Cookpad Summer Internship 2019 10 Day Techコースを開催しました にあるものが近いと思います．
+講義の中で「サービス開発は失敗が前提である」「だからこそ失敗を無題にしない開発が大事である」ということを学び，これはめちゃくちゃ大事な考え方だと感じました．この考え方を実践するため，BMLループ（Build -&amp;gt; Measure -&amp;gt; Learn）というものを学び，実際にBMLループに沿ってサービス開発を行いました．
+ユーザーインタビュー 講義で学んだことを活かし，実際のクリエイター（クックパッドマートの出品者）の方にインタビューを行いました．インタビューの中では，ユーザーの声をそのまま聞く のではなく， 声の背後にある具体的な経験 を理解できるように行いました．実際にやってみると，これがめちゃくちゃ難しく，「ユーザーの声をそのまま聞いてしまう」部分も多くなってしまいました・・・（クリエイターさんのお話が面白かった．．）
+直前の講義でインプットをしたにも関わらず，いざ実践してみると思い通りにいかない部分もあってユーザーインタビューの難しさを感じました．ユーザーインタビュー，奥が深い・・・
+価値仮説検証 ユーザーインタビューをもとに実際のサービスを考案するのですが，本当にユーザーの課題が解決できているのかを確認するために，価値仮説の検証 を行いました．ユーザーのストーリーを考えこれを言語化することで，サービスのどこに価値があるのかを明確にしました．
+プロトタイプの実装 約1日かけて，実際に考案したサービスを「最小限の実装」（= MVP: Minimum Viable Product）で具体化し，仮説の検証を行いました．今回はRuby on Railsを用いてプロトタイプを実装しました．
+MVP イメージ図（引用） プロトタイプを実装する際のアンチパターンとして，上図（Minimum Viable Product (MVP) and Design - Balancing Risk to Gain Reward より引用）のようなものが挙げられ，これに陥らないように注意しました．
+発表 最終的に，3日間で行ったことを以下のスライドにまとめてメンターやクリエイターの方々，CTOの成田さんなどの前で発表を行いました．
+インターンの感想 まわりのレベルが高すぎて驚きました・・・みんなアイディアも実装スピードも発表も何もかも凄すぎて学ぶことばかりでした・・
+はじめてのインターンシップでわからないこと，難しいこともたくさんあり大変でしたが，それ以上に楽しかったです！！何よりオフラインで実施していただけて嬉しかったです！！
+その他の感想 cookpadに対して「Rubyつよつよエンジニアしかいない超技術者集団」みたいなイメージを持っていましたが，実際にはサービス開発，特に「ユーザーにどのようにして価値を提供するか」をめちゃくちゃ大事にしているのは新しい学びでした．</description>
+    </item>
+    
+  </channel>
+</rss>

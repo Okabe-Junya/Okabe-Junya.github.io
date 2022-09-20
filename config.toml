@@ -5,6 +5,7 @@ defaultContentLanguage = 'ja'
 theme = 'hugo-coder'
 title = 'Okabe-Junya.github.io'
 canonifyurls = true
+googleAnalytics = 'G-98DYTL17TR'
 
 [params]
 author = 'Junya Okabe'
@@ -65,7 +66,7 @@ weight = 2
 url = "posts/"
 
 [[languages.ja.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 3
 url = "contact/"
 
