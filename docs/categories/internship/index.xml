@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internship on Okabe-Junya.github.io</title>
+    <link>https://Okabe-Junya.github.io/categories/internship/</link>
+    <description>Recent content in internship on Okabe-Junya.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 19 Sep 2022 03:02:51 +0900</lastBuildDate><atom:link href="https://Okabe-Junya.github.io/categories/internship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cookpadのエンジニアインターンに参加しました</title>
+      <link>https://Okabe-Junya.github.io/posts/02/</link>
+      <pubDate>Mon, 19 Sep 2022 03:02:51 +0900</pubDate>
+      
+      <guid>https://Okabe-Junya.github.io/posts/02/</guid>
+      <description>概要 こんにちは．めちゃくちゃ久しぶりの更新となってしまいました・・・9月14日(水)〜9月16日(金)の3日間，cookpadのエンジニアインターンに参加しました！！
+オフィスでの一枚 インターンシップの詳細は こちら からご確認ください．
+やったこと 3日間の中で，
+サービス開発の講義 -&amp;gt; ユーザーインタビュー -&amp;gt; 価値仮説検証 -&amp;gt; プロトタイプの実装 を行い，その中で随時メンター，クリエイターの方々からフィードバックをいただきました．
+TODO: やったことちゃんとかく
+最終的には以下のようなスライドにまとめてメンターやクリエイターの方々，CTOの成田さんなどの前で発表を行いました．
+TODO: URL埋める
+インターンの感想 まわりのレベルが高すぎて驚きました・・・みんなアイディアも実装スピードも発表も何もかも凄すぎて学ぶことばかりでした・・
+はじめてのインターンシップでわからないこと，難しいこともたくさんあり大変でしたが，それ以上に楽しかったです！！何よりオフラインで実施していただけて嬉しかったです！！
+その他の感想 cookpadに対して「Rubyつよつよエンジニアしかいない超技術者集団」みたいなイメージを持っていましたが，実際にはサービス開発，特に「ユーザーにどのような価値を提供するか」をめちゃくちゃ大事にしているのは新しい学びでした．
+あとは全然関係ないけど宿泊先のホテルがキレイで良かったです．インターンの前後1日ずつ余分にホテルを予約していただけたので初日/最終日に疲弊することもありませんでした．
+まとめ cookpadのエンジニアインターンはマジでおすすめです．来年も（多分）実施すると思うので，検討している人の参考になれば幸いです．自分もまた参加したい・・・
+3日間マジで楽しかったです！！関わってくださった全ての方々，ありがとうございました！！</description>
+    </item>
+    
+  </channel>
+</rss>
