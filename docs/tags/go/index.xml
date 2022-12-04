@@ -6,7 +6,16 @@
     <description>Recent content in go on Okabe-Junya.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 22 Nov 2022 02:46:51 +0900</lastBuildDate><atom:link href="https://Okabe-Junya.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 03:23:14 +0900</lastBuildDate><atom:link href="https://Okabe-Junya.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gopher塾でGoのテストに入門した【パート3 Fuzzing編】（外部リンク）</title>
+      <link>https://Okabe-Junya.github.io/posts/06/</link>
+      <pubDate>Mon, 05 Dec 2022 03:23:14 +0900</pubDate>
+      
+      <guid>https://Okabe-Junya.github.io/posts/06/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Gopher塾でGoのテストに入門した【パート2 テーブル駆動テスト編】（外部リンク）</title>
       <link>https://Okabe-Junya.github.io/posts/04/</link>
