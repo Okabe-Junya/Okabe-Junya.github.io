@@ -1,4 +1,4 @@
-baseURL = 'https://Okabe-Junya.github.io'
+baseURL = 'https://junya.dev'
 publishDir = 'docs'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
