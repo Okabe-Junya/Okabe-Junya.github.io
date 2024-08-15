@@ -1,6 +1,6 @@
 # [Okabe-Junya.github.io](https://okabe-junya.github.io/)
 
-[![Deploy Pages](https://github.com/Okabe-Junya/Okabe-Junya.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/Okabe-Junya/Okabe-Junya.github.io/actions/workflows/deploy.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Deploy Pages](https://github.com/Okabe-Junya/Okabe-Junya.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/Okabe-Junya/Okabe-Junya.github.io/actions/workflows/deploy.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## About
 
