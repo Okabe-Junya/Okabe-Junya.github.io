@@ -245,6 +245,18 @@ function downloadAsPDF() {
     });
 }
 
+// Function to hide PC recommendation message
+function hidePcRecommendation() {
+  const pcRecommendation = document.getElementById("pcRecommendation");
+  const body = document.body;
+
+  if (pcRecommendation) {
+    pcRecommendation.style.display = "none";
+    // Adjust body padding-top
+    body.style.paddingTop = "20px";
+  }
+}
+
 // Initialize the slide when the page loads
 document.addEventListener("DOMContentLoaded", () => {
   loadProfileData();

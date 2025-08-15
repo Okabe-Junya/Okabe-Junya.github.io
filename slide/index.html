@@ -9,6 +9,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   </head>
   <body>
+    <!-- PC recommendation message (displayed only on smartphones) -->
+    <div class="pc-recommendation" id="pcRecommendation">
+      <div class="pc-recommendation-content">
+        📱 このプレゼンテーションはPC・タブレットでの閲覧を推奨します
+        <br />
+        より良い表示品質でご覧いただけます
+        <button onclick="hidePcRecommendation()">閉じる</button>
+      </div>
+    </div>
+
     <button id="downloadPDF" class="download-btn">📄 Download as PDF</button>
     <div class="slide">
       <div class="left-section">

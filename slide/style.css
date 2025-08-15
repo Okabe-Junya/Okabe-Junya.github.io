@@ -265,7 +265,44 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+/* PC recommendation message styles */
+.pc-recommendation {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 10000;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pc-recommendation-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pc-recommendation button {
+  background: #2d3748;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.pc-recommendation button:hover {
+  background: #1a202c;
+}
+
+/* Tablet responsive design */
+@media (max-width: 1200px) and (min-width: 769px) {
   .slide {
     padding: 60px;
     gap: 60px;
@@ -296,5 +333,92 @@ body {
 
   .role-item {
     font-size: 18px;
+  }
+}
+
+/* Smartphone responsive design (with PC recommendation message) */
+@media (max-width: 768px) {
+  .pc-recommendation {
+    display: block;
+  }
+
+  body {
+    padding-top: 80px; /* Reserve space for the message */
+  }
+
+  .slide {
+    /* Display full screen width while maintaining aspect ratio */
+    width: 100vw;
+    height: calc(100vw * 9 / 16);
+    max-width: 100vw;
+    max-height: calc(100vw * 9 / 16);
+    padding: 20px;
+    gap: 20px;
+    font-size: 12px; /* Reduce base font size */
+  }
+
+  /* Change layout to vertical direction */
+  .slide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section {
+    gap: 15px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .right-section {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .info-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .info-label {
+    font-size: 12px;
+    min-width: auto;
+  }
+
+  .info-content {
+    font-size: 14px;
+  }
+
+  .interest-tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .role-item {
+    font-size: 12px;
+  }
+
+  .social-links {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .social-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .download-btn {
+    top: 90px; /* Position below PC recommendation message */
+    font-size: 12px;
+    padding: 8px 12px;
   }
 }
