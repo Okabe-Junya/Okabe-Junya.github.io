@@ -191,5 +191,66 @@ function renderSlide(profileData) {
   rightSection.innerHTML = rightSectionHTML;
 }
 
+// PDF download functionality
+function downloadAsPDF() {
+  const slideElement = document.querySelector(".slide");
+  const downloadBtn = document.getElementById("downloadPDF");
+
+  // Hide download button during capture
+  downloadBtn.style.display = "none";
+
+  html2canvas(slideElement, {
+    scale: 2, // Higher quality
+    useCORS: true,
+    allowTaint: true,
+    backgroundColor: "#ffffff",
+  })
+    .then((canvas) => {
+      const { jsPDF } = window.jspdf;
+
+      // A4 landscape dimensions (mm)
+      const pdf = new jsPDF("l", "mm", "a4");
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
+
+      // Calculate image dimensions to fit A4
+      const imgWidth = pdfWidth;
+      const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+      // Center the image if it's smaller than the page
+      const offsetY = imgHeight < pdfHeight ? (pdfHeight - imgHeight) / 2 : 0;
+
+      // Add image to PDF
+      pdf.addImage(
+        canvas.toDataURL("image/png"),
+        "PNG",
+        0,
+        offsetY,
+        imgWidth,
+        imgHeight
+      );
+
+      // Download the PDF
+      pdf.save(`${profileData.name.replace(/\s+/g, "_")}_Profile.pdf`);
+
+      // Show download button again
+      downloadBtn.style.display = "block";
+    })
+    .catch((error) => {
+      console.error("Error generating PDF:", error);
+      downloadBtn.style.display = "block";
+      alert(
+        "Error occurred during PDF generation. Please try using browser print function."
+      );
+    });
+}
+
 // Initialize the slide when the page loads
-document.addEventListener("DOMContentLoaded", loadProfileData);
+document.addEventListener("DOMContentLoaded", () => {
+  loadProfileData();
+
+  // Add PDF download event listener
+  document
+    .getElementById("downloadPDF")
+    .addEventListener("click", downloadAsPDF);
+});
