@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Self Introduction</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   </head>
   <body>
+    <!-- PC recommendation message (displayed only on smartphones) -->
+    <div class="pc-recommendation" id="pcRecommendation">
+      <div class="pc-recommendation-content">
+        📱 このプレゼンテーションはPC・タブレットでの閲覧を推奨します
+        <br />
+        より良い表示品質でご覧いただけます
+        <button onclick="hidePcRecommendation()">閉じる</button>
+      </div>
+    </div>
+
+    <button id="downloadPDF" class="download-btn">📄 Download as PDF</button>
     <div class="slide">
       <div class="left-section">
         <div class="profile-image" id="profileImage">
