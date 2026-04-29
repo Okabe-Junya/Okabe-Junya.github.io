@@ -49,8 +49,7 @@
             "matchDepTypes": [
                 "action"
             ],
-            "pinDigests": false,
-            "extractVersion": "^v(?<version>\\d+\\.\\d+\\.\\d+)$"
+            "pinDigests": false
         }
     ]
 }
