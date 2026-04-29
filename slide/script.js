@@ -3,8 +3,8 @@ const profileData = {
   name: "Junya Okabe",
   photo: "https://avatars.githubusercontent.com/u/86868255",
   affiliation:
-    "Master's student at University of Tsukuba. Majoring in computer science.",
-  country: "Tsukuba, Japan",
+    "Software Engineer at Mercari, Inc.",
+  country: "Tokyo, Japan",
   interests: ["Kubernetes", "Platform Engineering", "CI/CD", "SRE"],
   roles: [
     "CNCF Ambassador",
