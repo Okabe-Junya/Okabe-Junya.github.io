@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /payment/
+Disallow: /wishlist/
+
+Sitemap: https://okabe-junya.github.io/sitemap.xml
