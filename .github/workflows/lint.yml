@@ -22,21 +22,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: Install xmllint
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends libxml2-utils
-
       - name: Validate XML files
         run: |
-          set -euo pipefail
-          mapfile -t files < <(find . -type f -name '*.xml' -not -path './.git/*')
-          if [ "${#files[@]}" -eq 0 ]; then
-            echo "No XML files found"
-            exit 0
-          fi
-          for f in "${files[@]}"; do
-            echo "::group::$f"
-            xmllint --noout "$f"
-            echo "::endgroup::"
-          done
+          python3 <<'PY'
+          import os, sys
+          import xml.etree.ElementTree as ET
+          files = []
+          for root, dirs, fnames in os.walk('.'):
+              dirs[:] = [d for d in dirs if d != '.git']
+              files += [os.path.join(root, f) for f in fnames if f.endswith('.xml')]
+          if not files:
+              print('No XML files found'); sys.exit(0)
+          ok = True
+          for f in files:
+              try:
+                  ET.parse(f)
+                  print(f'OK   {f}')
+              except ET.ParseError as e:
+                  print(f'FAIL {f}: {e}'); ok = False
+          sys.exit(0 if ok else 1)
+          PY
