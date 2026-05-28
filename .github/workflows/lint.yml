@@ -1,0 +1,44 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - "**/*.xml"
+      - ".github/workflows/lint.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "**/*.xml"
+      - ".github/workflows/lint.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  xml:
+    name: Validate XML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Validate XML files
+        run: |
+          python3 <<'PY'
+          import os, sys
+          import xml.etree.ElementTree as ET
+          files = []
+          for root, dirs, fnames in os.walk('.'):
+              dirs[:] = [d for d in dirs if d != '.git']
+              files += [os.path.join(root, f) for f in fnames if f.endswith('.xml')]
+          if not files:
+              print('No XML files found'); sys.exit(0)
+          ok = True
+          for f in files:
+              try:
+                  ET.parse(f)
+                  print(f'OK   {f}')
+              except ET.ParseError as e:
+                  print(f'FAIL {f}: {e}'); ok = False
+          sys.exit(0 if ok else 1)
+          PY
