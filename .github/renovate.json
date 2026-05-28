@@ -44,12 +44,6 @@
             "addLabels": [
                 "renovate: patch"
             ]
-        },
-        {
-            "matchDepTypes": [
-                "action"
-            ],
-            "pinDigests": false
         }
     ]
 }

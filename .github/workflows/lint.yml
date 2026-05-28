@@ -1,0 +1,37 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - "**/*.xml"
+      - ".github/workflows/lint.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "**/*.xml"
+      - ".github/workflows/lint.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  xml:
+    name: Validate XML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Validate XML files
+        run: |
+          set -euo pipefail
+          mapfile -t files < <(find . -type f -name '*.xml' -not -path './.git/*')
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "No XML files found"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            echo "::group::$f"
+            xmllint --noout "$f"
+            echo "::endgroup::"
+          done
