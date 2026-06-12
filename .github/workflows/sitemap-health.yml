@@ -1,0 +1,30 @@
+name: Sitemap Health
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Verify sitemap URLs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify all sitemap URLs return 200 directly
+        run: |
+          set -euo pipefail
+          sitemap="https://okabe-junya.github.io/sitemap.xml"
+          fail=0
+          for url in $(curl -sSf "$sitemap" | grep -oP '(?<=<loc>)[^<]+'); do
+            code=$(curl -sSI -o /dev/null -w '%{http_code}' "$url")
+            if [ "$code" != "200" ]; then
+              echo "NG: $url -> $code (sitemap must list final URLs that return 200)"
+              fail=1
+            else
+              echo "OK: $url"
+            fi
+          done
+          exit $fail
